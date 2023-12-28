@@ -1,0 +1,584 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:49:42 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 22020
+License: Customer
+
+Current time: 	Thu Dec 28 16:44:40 IST 2023
+Time zone: 	India Standard Time (Asia/Calcutta)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1920x1080
+Screen resolution (DPI): 150
+Available screens: 1
+Available disk space: 647 GB
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=18
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Users/Saarthak/Desktop/Academia/Vivado/2019.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Users/Saarthak/Desktop/Academia/Vivado/2019.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Saarthak
+User home directory: C:/Users/Saarthak
+User working directory: C:/Users/Saarthak/Desktop/Academia/third_sem/ELD/lab_2
+User country: 	IN
+User language: 	en
+User locale: 	en_IN
+
+RDI_BASEROOT: C:/Users/Saarthak/Desktop/Academia/Vivado
+HDI_APPROOT: C:/Users/Saarthak/Desktop/Academia/Vivado/2019.1
+RDI_DATADIR: C:/Users/Saarthak/Desktop/Academia/Vivado/2019.1/data
+RDI_BINDIR: C:/Users/Saarthak/Desktop/Academia/Vivado/2019.1/bin
+
+Vivado preferences file location: C:/Users/Saarthak/AppData/Roaming/Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: C:/Users/Saarthak/AppData/Roaming/Xilinx/Vivado/2019.1/
+Vivado layouts directory: C:/Users/Saarthak/AppData/Roaming/Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	C:/Users/Saarthak/Desktop/Academia/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Saarthak/Desktop/Academia/third_sem/ELD/lab_2/vivado.log
+Vivado journal file location: 	C:/Users/Saarthak/Desktop/Academia/third_sem/ELD/lab_2/vivado.jou
+Engine tmp dir: 	C:/Users/Saarthak/Desktop/Academia/third_sem/ELD/lab_2/.Xil/Vivado-22020-LAPTOP-DKE0FAI2
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Users/Saarthak/Desktop/Academia/Vivado/2019.1/ids_lite/ISE
+XILINXD_LICENSE_FILE: 2100@192.168.1.70
+XILINX_DSP: C:/Users/Saarthak/Desktop/Academia/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Users/Saarthak/Desktop/Academia/Vivado/2019.1
+XILINX_SDK: C:/Users/Saarthak/Desktop/Academia/SDK/2019.1
+XILINX_VIVADO: C:/Users/Saarthak/Desktop/Academia/Vivado/2019.1
+XILINX_VIVADO_HLS: C:/Users/Saarthak/Desktop/Academia/Vivado/2019.1
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 412 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// WARNING: HEventQueue.dispatchEvent() is taking  1977 ms.
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 94 MB (+95570kb) [00:00:22]
+// [Engine Memory]: 412 MB (+280893kb) [00:00:22]
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Saarthak\Desktop\Academia\third_sem\ELD\lab_2\lab_2.xpr. Version: Vivado v2019.1 
+// WARNING: HEventQueue.dispatchEvent() is taking  1042 ms.
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Saarthak/Desktop/Academia/third_sem/ELD/lab_2/lab_2.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 421 MB. GUI used memory: 54 MB. Current time: 12/28/23, 4:44:42 PM IST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 489 MB (+58985kb) [00:00:49]
+// [GUI Memory]: 114 MB (+16448kb) [00:00:51]
+// WARNING: HEventQueue.dispatchEvent() is taking  13369 ms.
+// Tcl Message: open_project C:/Users/Saarthak/Desktop/Academia/third_sem/ELD/lab_2/lab_2.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Saarthak/Desktop/Academia/ELD/lab_2' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/Saarthak/Desktop/Academia/Vivado/2019.1/data/ip'. 
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1608 ms. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1893 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:37 . Memory (MB): peak = 940.000 ; gain = 271.934 
+// Project name: lab_2; location: C:/Users/Saarthak/Desktop/Academia/third_sem/ELD/lab_2; part: xc7z020clg484-1
+dismissDialog("Open Project"); // by (cl)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (top_adderhardware.v) elapsed time: 0.4s
+// Elapsed time: 25 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_adderhardware (top_adderhardware.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_adderhardware (top_adderhardware.v)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// [GUI Memory]: 122 MB (+2669kb) [00:01:29]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_adderhardware (top_adderhardware.v), ta : top_adder (top_adder.v)]", 3, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_adderhardware (top_adderhardware.v), ta : top_adder (top_adder.v), in0 : full_adder_1bit (full_adder_1bit.v)]", 4, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cl):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// Tcl Message: launch_simulation 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator... INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Saarthak/Desktop/Academia/third_sem/ELD/lab_2/lab_2.sim/sim_1/behav/xsim' INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [USF-XSim-7] Finding pre-compiled libraries... INFO: [USF-XSim-11] File 'C:/Users/Saarthak/Desktop/Academia/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/Saarthak/Desktop/Academia/third_sem/ELD/lab_2/lab_2.sim/sim_1/behav/xsim' 
+// Tcl Message: INFO: [SIM-utils-54] Inspecting design source files for 'top_adderhardware' in fileset 'sim_1'... 
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Saarthak/Desktop/Academia/third_sem/ELD/lab_2/lab_2.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj top_adderhardware_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '4' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Saarthak/Desktop/Academia/third_sem/ELD/lab_2/lab_2.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto e37b5fd2c7504ae1a64812fbc672ae97 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot top_adderhardware_behav xil_defaultlib.top_adderhardware xil_defaultlib.glbl -log elaborate.log" 
+// Tcl Message: Vivado Simulator 2019.1 Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved. Running: C:/Users/Saarthak/Desktop/Academia/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto e37b5fd2c7504ae1a64812fbc672ae97 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot top_adderhardware_behav xil_defaultlib.top_adderhardware xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. 
+// Tcl Message: Starting static elaboration Completed static elaboration Starting simulation data flow analysis Completed simulation data flow analysis Time Resolution for simulation is 1ps Compiling module xil_defaultlib.vio_1 Compiling module xil_defaultlib.full_adder_1bit Compiling module xil_defaultlib.top_adder Compiling module xil_defaultlib.top_adderhardware Compiling module xil_defaultlib.glbl Built simulation snapshot top_adderhardware_behav 
+// Tcl Message:  ****** Webtalk v2019.1 (64-bit)   **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019   **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019     ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.  source C:/Users/Saarthak/Desktop/Academia/third_sem/ELD/lab_2/lab_2.sim/sim_1/behav/xsim/xsim.dir/top_adderhardware_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// WARNING: HEventQueue.dispatchEvent() is taking  1208 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2118 ms.
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [Common 17-206] Exiting Webtalk at Thu Dec 28 16:46:26 2023... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:03 ; elapsed = 00:00:20 . Memory (MB): peak = 1029.980 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '20' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Saarthak/Desktop/Academia/third_sem/ELD/lab_2/lab_2.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "top_adderhardware_behav -key {Behavioral:sim_1:Functional:top_adderhardware} -tclbatch {top_adderhardware.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2019.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// PAPropertyPanels.initPanels (top_adder.v) elapsed time: 0.2s
+// WARNING: HEventQueue.dispatchEvent() is taking  4823 ms.
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Elapsed time: 40 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1066 ms.
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source top_adderhardware.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// WARNING: HEventQueue.dispatchEvent() is taking  1413 ms.
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 70 MB. Current time: 12/28/23, 4:46:42 PM IST
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: xsim: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1090.797 ; gain = 60.816 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_adderhardware_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:18 ; elapsed = 00:00:44 . Memory (MB): peak = 1090.797 ; gain = 75.559 
+// 'd' command handler elapsed time: 44 seconds
+dismissDialog("Run Simulation"); // e (cl)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// WARNING: HEventQueue.dispatchEvent() is taking  7384 ms.
+// [GUI Memory]: 130 MB (+1980kb) [00:20:04]
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 70 MB. Current time: 12/28/23, 5:04:24 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 70 MB. Current time: 12/28/23, 5:04:24 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 70 MB. Current time: 12/28/23, 5:04:25 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 70 MB. Current time: 12/28/23, 5:04:25 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 70 MB. Current time: 12/28/23, 5:04:25 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 70 MB. Current time: 12/28/23, 5:04:25 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 70 MB. Current time: 12/28/23, 5:04:25 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 70 MB. Current time: 12/28/23, 5:04:28 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 70 MB. Current time: 12/28/23, 5:04:28 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 70 MB. Current time: 12/28/23, 5:04:28 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 70 MB. Current time: 12/28/23, 5:04:28 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 70 MB. Current time: 12/28/23, 5:04:29 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 70 MB. Current time: 12/28/23, 5:04:29 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 70 MB. Current time: 12/28/23, 5:04:29 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 70 MB. Current time: 12/28/23, 5:04:29 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 70 MB. Current time: 12/28/23, 5:04:29 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 1070 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_adder.v", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_adder.v", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_adderhardware.v", 0); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_adder.v", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, cl)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 70 MB. Current time: 12/28/23, 5:04:39 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 70 MB. Current time: 12/28/23, 5:04:39 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 70 MB. Current time: 12/28/23, 5:04:39 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 71 MB. Current time: 12/28/23, 5:04:39 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 70 MB. Current time: 12/28/23, 5:04:40 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_adder.v", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_adderhardware.v", 0); // k (j, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_adderhardware (top_adderhardware.v), v1 : vio_1 (vio_1.xci)]", 2, false); // B (F, cl)
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_adderhardware (top_adderhardware.v), v1 : vio_1 (vio_1.xci)]", 2, false, false, false, false, true, false); // B (F, cl) - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_adderhardware (top_adderhardware.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_adderhardware (top_adderhardware.v)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_adderhardware (top_adderhardware.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_adderhardware (top_adderhardware.v), v1 : vio_1 (vio_1.xci)]", 2, false, false, false, false, false, true); // B (F, cl) - Double Click
+// [GUI Memory]: 143 MB (+7041kb) [00:20:52]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_adderhardware (top_adderhardware.v), v1 : vio_1 (vio_1.xci)]", 2, false, false, false, false, true, false); // B (F, cl) - Popup Trigger
+selectMenu(PAResourceQtoS.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // ae (an, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // ae (an, Popup.HeavyWeightWindow)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ae (an, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ae (an, Popup.HeavyWeightWindow)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cl)
+// [GUI Memory]: 156 MB (+5398kb) [00:21:02]
+// Waveform: addNotify
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cl)
+selectCodeEditor("top_adderhardware.v", 322, 150); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, cl)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 75 MB. Current time: 12/28/23, 5:05:30 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 75 MB. Current time: 12/28/23, 5:05:30 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 75 MB. Current time: 12/28/23, 5:05:30 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 75 MB. Current time: 12/28/23, 5:05:30 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 75 MB. Current time: 12/28/23, 5:05:30 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 75 MB. Current time: 12/28/23, 5:05:30 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 75 MB. Current time: 12/28/23, 5:05:30 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 75 MB. Current time: 12/28/23, 5:05:31 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 75 MB. Current time: 12/28/23, 5:05:31 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 75 MB. Current time: 12/28/23, 5:05:31 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 75 MB. Current time: 12/28/23, 5:05:31 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 75 MB. Current time: 12/28/23, 5:05:31 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 75 MB. Current time: 12/28/23, 5:05:31 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 75 MB. Current time: 12/28/23, 5:05:31 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 75 MB. Current time: 12/28/23, 5:05:31 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 77 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 3); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// by (cl):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // by (cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD, "Open New Target..."); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD
+// aN (cl): Open New Hardware Target: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, aN)
+setText(PAResourceOtoP.OpenTargetWizard_HOST_NAME, "192.168.226.142"); // l (e, aN)
+setText(PAResourceOtoP.OpenTargetWizard_PORT, "51133"); // v (Q, aN)
+// by (aN):  Open Server : addNotify
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// by (aN):  Open Target : addNotify
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 514 MB. GUI used memory: 79 MB. Current time: 12/28/23, 5:07:34 PM IST
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// [Engine Memory]: 514 MB (+325kb) [00:23:20]
+// TclEventType: HW_TARGET_CLOSE
+// by (aN):  Close Target : addNotify
+// TclEventType: HW_TARGET_CLOSE
+// Elapsed time: 38 seconds
+dismissDialog("Open Target"); // by (aN)
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+selectButton("NEXT", "Next >"); // JButton (j, aN)
+dismissDialog("Close Target"); // by (aN)
+// Elapsed time: 91 seconds
+selectButton("NEXT", "Next >"); // JButton (j, aN)
+// by (aN):  Open Hardware Target : addNotify
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (by)
+selectButton("FINISH", "Finish"); // JButton (j, aN)
+// 'H' command handler elapsed time: 141 seconds
+// [Engine Memory]: 1,082 MB (+568057kb) [00:24:55]
+// TclEventType: HW_OBJECT_DELETE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,082 MB. GUI used memory: 79 MB. Current time: 12/28/23, 5:09:15 PM IST
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: connect_hw_server -url 192.168.226.142:51133 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:192.168.226.142:51133 
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2224.508 ; gain = 3.391 
+// Tcl Message: current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210248722815] 
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210248722815] 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.226.142:51133/xilinx_tcf/Digilent/210248722815 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Saarthak/Desktop/Academia/third_sem/ELD/lab_2/lab_2.runs/impl_1/top_adderhardware.bit} [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {C:/Users/Saarthak/Desktop/Academia/third_sem/ELD/lab_2/lab_2.runs/impl_1/top_adderhardware.ltx} [get_hw_devices xc7z020_1] 
+// Tcl Message: set_property FULL_PROBES.FILE {C:/Users/Saarthak/Desktop/Academia/third_sem/ELD/lab_2/lab_2.runs/impl_1/top_adderhardware.ltx} [get_hw_devices xc7z020_1] 
+// Tcl Message: current_hw_device [get_hw_devices xc7z020_1] 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0] 
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0). 
+// Elapsed time: 10 seconds
+dismissDialog("Open Hardware Target"); // by (aN)
+dismissDialog("Open New Hardware Target"); // aN (cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_adder.v", 1); // k (j, cl)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cS, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cl)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {C:/Users/Saarthak/Desktop/Academia/third_sem/ELD/lab_2/lab_2.runs/impl_1/top_adderhardware.ltx} [get_hw_devices xc7z020_1] 
+// Tcl Message: set_property FULL_PROBES.FILE {C:/Users/Saarthak/Desktop/Academia/third_sem/ELD/lab_2/lab_2.runs/impl_1/top_adderhardware.ltx} [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Saarthak/Desktop/Academia/third_sem/ELD/lab_2/lab_2.runs/impl_1/top_adderhardware.bit} [get_hw_devices xc7z020_1] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7z020_1] 
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (by)
+// 'I' command handler elapsed time: 3 seconds
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 2258.574 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0] 
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_VIO_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 VIO core(s). 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_VIO_CHANGE
+dismissDialog("Program Device"); // by (cl)
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "OutSum[4:0] ; [B] 0_0000 ;  ; Input ; hw_vio_1", 2, "[B] 0_0000", 1, true); // g (O, cl) - Node
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "OutSum[4:0] ; [B] 0_0000 ;  ; Input ; hw_vio_1", 2, "[B] 0_0000", 1, true, false, false, false, true, false); // g (O, cl) - Popup Trigger - Node
+selectMenu(PAResourceItoN.LabtoolsMenu_RADIX, "Radix"); // ae (an, cl)
+selectMenuItem(PAResourceItoN.LabtoolsMenu_SIGNED_DECIMAL, "Signed Decimal"); // ap (cl)
+// Run Command: PAResourceCommand.PACommandNames_SET_VIO_SIGNED_DECIMAL_RADIX
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property INPUT_VALUE_RADIX SIGNED [get_hw_probes OutSum -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"v1"}]] 
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "M ; [B] 1 ;  ; Output ; hw_vio_1", 3, "[B] 1", 1, false); // g (O, cl)
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property OUTPUT_VALUE 0 [get_hw_probes M -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"v1"}]] 
+// Tcl Message: commit_hw_vio [get_hw_probes {M} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"v1"}]] 
+// by (cl):  Set VIO Outputs Value : addNotify
+// TclEventType: HW_VIO_CHANGE
+dismissDialog("Set VIO Outputs Value"); // by (cl)
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "InA[3:0] ; [S] 5 ;  ; Output ; hw_vio_1", 0, "[S] 5", 1, true); // g (O, cl) - Node
+setText("Value:", "7", true); // bW (i, ResizableWindow)
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property OUTPUT_VALUE 7 [get_hw_probes InA -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"v1"}]] 
+// by (cl):  Set VIO Outputs Value : addNotify
+// TclEventType: HW_VIO_CHANGE
+// Tcl Message: commit_hw_vio [get_hw_probes {InA} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"v1"}]] 
+dismissDialog("Set VIO Outputs Value"); // by (cl)
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "InB[3:0] ; [S] 4 ;  ; Output ; hw_vio_1", 1, "[S] 4", 1, true); // g (O, cl) - Node
+setText("Value:", "1", true); // bW (i, ResizableWindow)
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property OUTPUT_VALUE 1 [get_hw_probes InB -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"v1"}]] 
+// by (cl):  Set VIO Outputs Value : addNotify
+// TclEventType: HW_VIO_CHANGE
+// Tcl Message: commit_hw_vio [get_hw_probes {InB} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"v1"}]] 
+dismissDialog("Set VIO Outputs Value"); // by (cl)
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "M ; [B] 0 ;  ; Output ; hw_vio_1", 3, "[B] 0", 1, false); // g (O, cl)
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property OUTPUT_VALUE 1 [get_hw_probes M -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"v1"}]] 
+// by (cl):  Set VIO Outputs Value : addNotify
+// Tcl Message: commit_hw_vio [get_hw_probes {M} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"v1"}]] 
+// TclEventType: HW_VIO_CHANGE
+dismissDialog("Set VIO Outputs Value"); // by (cl)
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "OutSum[4:0] ; [S] -10 ;  ; Input ; hw_vio_1", 2, "[S] -10", 1, true); // g (O, cl) - Node
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "OutSum[4:0] ; [S] -10 ;  ; Input ; hw_vio_1", 2, "[S] -10", 1, true); // g (O, cl) - Node
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "InA[3:0] ; [S] 7 ;  ; Output ; hw_vio_1", 0, "[S] 7", 1, true); // g (O, cl) - Node
+setText("Value:", "3"); // bW (i, ResizableWindow)
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property OUTPUT_VALUE 3 [get_hw_probes InA -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"v1"}]] 
+// Tcl Message: commit_hw_vio [get_hw_probes {InA} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"v1"}]] 
+// by (cl):  Set VIO Outputs Value : addNotify
+// TclEventType: HW_VIO_CHANGE
+dismissDialog("Set VIO Outputs Value"); // by (cl)
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "OutSum[4:0] ; [S] -14 ; HARDWARE_VIO_ACTIVITY_FALL ; Input ; hw_vio_1", 2, "[S] -14", 1, true); // g (O, cl) - Node
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "OutSum[4:0] ; [S] -14 ; HARDWARE_VIO_ACTIVITY_FALL ; Input ; hw_vio_1", 2, "[S] -14", 1, true); // g (O, cl) - Node
+expandTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "OutSum[4:0] ; [S] -14 ; HARDWARE_VIO_ACTIVITY_FALL ; Input ; hw_vio_1", 2); // g (O, cl)
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "OutSum[4:0] ; [S] -14 ; HARDWARE_VIO_ACTIVITY_FALL ; Input ; hw_vio_1", 2, "[S] -14", 1, true, false, false, false, false, true); // g (O, cl) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_adderhardware.v", 0); // k (j, cl)
+// Elapsed time: 174 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_adder.v", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hw_vios", 2); // k (j, cl)
+// Elapsed time: 84 seconds
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "OutSum[4:0] ; [S] -2 ; HARDWARE_VIO_ACTIVITY_BOTH ; Input ; hw_vio_1", 2, "OutSum[4:0]", 0, true); // g (O, cl) - Node
+collapseTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "OutSum[4:0] ; [S] -2 ; HARDWARE_VIO_ACTIVITY_BOTH ; Input ; hw_vio_1", 2); // g (O, cl)
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "InB[3:0] ; [S] 1 ;  ; Output ; hw_vio_1", 1, "InB[3:0]", 0, true, false, false, false, false, true); // g (O, cl) - Double Click - Node
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "OutSum[4:0] ; [S] -6 ; HARDWARE_VIO_ACTIVITY_BOTH ; Input ; hw_vio_1", 2, "HARDWARE_VIO_ACTIVITY_BOTH", 2, true); // g (O, cl) - Node
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "M ; [B] 1 ;  ; Output ; hw_vio_1", 3, "[B] 1", 1, false); // g (O, cl)
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property OUTPUT_VALUE 0 [get_hw_probes M -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"v1"}]] 
+// by (cl):  Set VIO Outputs Value : addNotify
+// Tcl Message: commit_hw_vio [get_hw_probes {M} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"v1"}]] 
+// TclEventType: HW_VIO_CHANGE
+dismissDialog("Set VIO Outputs Value"); // by (cl)
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_adderhardware.v", 0); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_adder.v", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hw_vios", 2); // k (j, cl)
+// TclEventType: HW_SERVER_NEEDS_CLOSE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+closeView(PAResourceOtoP.PAViews_DASHBOARD, "hw_vios"); // i
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: ERROR: [Labtoolstcl 44-514] HW Server shutdown. Disconnecting from server: 192.168.226.142:51133 
+// p (cl): Disconnect Hardware Server: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (p)
+dismissDialog("Disconnect Hardware Server"); // p (cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_adderhardware.v", 0); // k (j, cl)

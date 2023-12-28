@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Dec 28 16:44:05 2023
+# Process ID: 22020
+# Current directory: C:/Users/Saarthak/Desktop/Academia/third_sem/ELD/lab_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15964 C:\Users\Saarthak\Desktop\Academia\third_sem\ELD\lab_2\lab_2.xpr
+# Log file: C:/Users/Saarthak/Desktop/Academia/third_sem/ELD/lab_2/vivado.log
+# Journal file: C:/Users/Saarthak/Desktop/Academia/third_sem/ELD/lab_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Saarthak/Desktop/Academia/third_sem/ELD/lab_2/lab_2.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source top_adderhardware.tcl
+open_hw
+connect_hw_server -url 192.168.226.142:51133
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210248722815]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210248722815]
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Saarthak/Desktop/Academia/third_sem/ELD/lab_2/lab_2.runs/impl_1/top_adderhardware.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {C:/Users/Saarthak/Desktop/Academia/third_sem/ELD/lab_2/lab_2.runs/impl_1/top_adderhardware.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/Saarthak/Desktop/Academia/third_sem/ELD/lab_2/lab_2.runs/impl_1/top_adderhardware.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {C:/Users/Saarthak/Desktop/Academia/third_sem/ELD/lab_2/lab_2.runs/impl_1/top_adderhardware.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/Saarthak/Desktop/Academia/third_sem/ELD/lab_2/lab_2.runs/impl_1/top_adderhardware.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/Saarthak/Desktop/Academia/third_sem/ELD/lab_2/lab_2.runs/impl_1/top_adderhardware.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+set_property INPUT_VALUE_RADIX SIGNED [get_hw_probes OutSum -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"v1"}]]
+set_property OUTPUT_VALUE 0 [get_hw_probes M -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"v1"}]]
+commit_hw_vio [get_hw_probes {M} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"v1"}]]
+set_property OUTPUT_VALUE 7 [get_hw_probes InA -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"v1"}]]
+commit_hw_vio [get_hw_probes {InA} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"v1"}]]
+set_property OUTPUT_VALUE 1 [get_hw_probes InB -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"v1"}]]
+commit_hw_vio [get_hw_probes {InB} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"v1"}]]
+set_property OUTPUT_VALUE 1 [get_hw_probes M -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"v1"}]]
+commit_hw_vio [get_hw_probes {M} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"v1"}]]
+set_property OUTPUT_VALUE 3 [get_hw_probes InA -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"v1"}]]
+commit_hw_vio [get_hw_probes {InA} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"v1"}]]
+set_property OUTPUT_VALUE 0 [get_hw_probes M -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"v1"}]]
+commit_hw_vio [get_hw_probes {M} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"v1"}]]
